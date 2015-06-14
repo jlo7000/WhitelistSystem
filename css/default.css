@@ -1,0 +1,18 @@
+body { background: url(../img/bg.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; background-size:cover; color: #eee; font-family: trebuchet ms; }
+.container { width: 900px; height: auto; margin: 0 auto; margin-top: 50px; }
+.navbar { width: 100%; height: 60px; background-color: rgba(0, 0, 0, 0.7); border-radius: 8px; font-size: 19px; }
+.navbar a { min-width:110px; width: auto; height: 100%; text-align: center; float: left; color: #B8B8B8; line-height: 55px; border-right: 0.2px solid #818181; }
+.navbar a:hover { color:#3281b5; line-height:60px; }
+.post { width: 530px; height: auto; min-height: 260px; background-color: rgba(0, 0, 0, 0.75); border-radius: 8px; float: left; margin-top: 40px; padding: 15px; margin-bottom: 20px; }
+.post h2 { margin-bottom: -3px; margin-top: 10px; }
+.post h5 { margin-bottom: -3px; margin-top: 5px; }
+.right-box { width:220px; height: auto; min-height: 240px; background-color: rgba(0, 0, 0, 0.8); border-radius: 8px; margin-top: 40px; padding: 15px; color: #E6E3E3; }
+.right { float: right; height: auto; vertical-align: middle; }
+.right h2 { text-align: center; margin-bottom: -3px; margin-top: 10px;}
+.footer { width: 500px; height: 50px; clear: both; background-color: rgba(0, 0, 0, 0.8); border-radius: 8px; text-align: center; margin: auto; line-height: 45px;}
+a, a:hover { color: blue; text-decoration: none; color:#3281b5;}
+.subpage { width: 530px; height: auto; min-height: 260px; background-color: rgba(0, 0, 0, 0.75); border-radius: 8px; float: left; margin-top: 40px; padding: 15px; margin-bottom: 20px; text-align: center;}
+.subpage h1 { font-size: 21px; font-family: Viner Hand ITC; }
+.subpage p { font-family: Lucida Calligraphy; }
+.player { width: 160px; float: left; height: auto; margin-left: 5px; margin-right: 5px; min-height: 250px; }
+.player img { border-radius: 8px; }

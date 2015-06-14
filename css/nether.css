@@ -1,0 +1,136 @@
+
+
+body {
+  font-family: 'Droid Sans', sans-serif;
+  color:#d9d9d9;
+  font-size:15px;
+  background: url(../img/nether.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+/* Navbar Style */
+.navbar-default {
+  background-color: rgba(51,19,9,0.8) ;
+  border-color: #ab380b;
+  font-size: 17px;
+}
+.navbar-default .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-default .navbar-brand  {
+  color: #d9d9d9;
+  position: center;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #000000;
+}
+.navbar-default .navbar-text {
+  color: #d9d9d9;
+}
+.navbar-default .navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #d9d9d9;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus  {
+color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #454545;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #d9d9d9;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #000000;
+  background-color: #ab380b;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #454545;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #ab380b;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: #ab380b;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ab380b;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ab380b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #d9d9d9;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #d9d9d9;
+}
+.navbar-default .navbar-link {
+  color: #d9d9d9;
+}
+.navbar-default .navbar-link:hover {
+  color: #000000;
+}
+.navbar .container-fluid, .navbar-collapse {
+    padding-left:0;
+}
+.navbar-collapse.in {
+    padding-left:30px;
+}
+.navbar .ul {
+ font-family: 'Droid Sans', sans-serif;
+}
+ 
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #d9d9d9;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #ab380b;
+  }
+}
+
+/*Page Title Format */
+.pagetitle {
+  font-size:40px;
+  text-shadow:0 1px 0 black;
+  text-align:center;
+  padding:15px 15px;
+  margin-bottom:20px;
+  border-bottom:3px outset rgba(255,255,255,1);
+  position:relative;
+  text-align:center;
+}
+
+/* Container Styles */
+.well {
+background-color: rgba(51,19,9,0.8) ;
+border-color: #ab380b;
+padding:15px 15px;
+margin-top:20px;
+}
+
+/* Footer Styles */
+#footer{
+background-color: rgba(51,19,9,1);
+border-color:#ab380b;
+}
